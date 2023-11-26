@@ -10,6 +10,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void LoginSuccessful() {
+        //test
         loginPage.setUsername("standard_user");
         loginPage.setPassword("secret_sauce");
         loginPage.clickLoginButton();
